@@ -22,6 +22,17 @@ CKIP BERT-base 的 CoreML 版本，可在 iOS/macOS 上透過 Apple Neural Engin
 
 推薦：fp16（速度最快、精度幾乎無損）
 
+## 下載模型
+
+模型權重託管於 HuggingFace：[FakeRockert543/ckip-coreml](https://huggingface.co/FakeRockert543/ckip-coreml)
+
+```bash
+pip install huggingface_hub
+
+# 下載全部 .mlpackage
+huggingface-cli download FakeRockert543/ckip-coreml --local-dir .
+```
+
 ## 安裝
 
 ```bash
