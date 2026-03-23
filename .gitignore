@@ -1,0 +1,20 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+
+# macOS
+.DS_Store
+
+# CoreML models (too large for git, host on HuggingFace)
+*.mlpackage/
+
+# ONNX
+*.onnx
+*.onnx.data
+
+# Test results
+result_*.json
